@@ -15,16 +15,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 Follow the above steps:
 
-Open your favorite terminal and type this command:
+Open your favorite terminal and type these commands:
 
 ```
-docker-compose up
+docker-compose up -d
+```
+
+```
+docker-compose exec app composer install
 ```
 
 And open your favorite web browser in url above:
 
 
-[http://localhost:8000](https://docs.docker.com/install/)
+[http://localhost](http://localhost)
 
 
 ## Built With
