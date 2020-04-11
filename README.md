@@ -8,8 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* [Docker Engine (version ^19)](https://docs.docker.com/install/)
-* [Docker-Compose (version ^19)](https://docs.docker.com/install/)
+* [Docker Engine (version ^19.03.8)](https://docs.docker.com/install/)
+* [Docker-Compose (version ^1.25.4)](https://docs.docker.com/install/)
 
 ### Installing
 
@@ -17,11 +17,11 @@ Follow the above steps:
 
 Open your favorite terminal and type these commands:
 
-```
+```bash
 docker-compose up -d
 ```
 
-```
+```bash
 docker-compose exec app composer install
 ```
 
