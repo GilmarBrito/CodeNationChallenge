@@ -89,7 +89,7 @@ $response = $client->request('POST', $cnSubmitSolutionUri, [
     ]
 );
 
-$json = echo $response->getBody();;
+$json = $response->getBody();
 
 $file = fopen(__DIR__ . '/Result' . PARAM_FIELD_FILENAME_VALUE,'w');
 fwrite($file, $json);
