@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "GilmarBrito\\": "./",
+            "GilmarBrito\\Classes\\": "./classes/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "symfony/dotenv": "^5.0"
+    }
+}
